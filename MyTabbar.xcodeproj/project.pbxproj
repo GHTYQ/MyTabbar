@@ -13,6 +13,13 @@
 		506A8812210071A50019CA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506A8811210071A50019CA95 /* Assets.xcassets */; };
 		506A8815210071A50019CA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506A8813210071A50019CA95 /* LaunchScreen.storyboard */; };
 		506A8818210071A50019CA95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A8817210071A50019CA95 /* main.m */; };
+		506A8823210074750019CA95 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A8822210074750019CA95 /* MyTabBarViewController.m */; };
+		506A8828210074FD0019CA95 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A8826210074FD0019CA95 /* FirstViewController.m */; };
+		506A8829210074FD0019CA95 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506A8827210074FD0019CA95 /* FirstViewController.xib */; };
+		506A882D2100750C0019CA95 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A882B2100750C0019CA95 /* NextViewController.m */; };
+		506A882E2100750C0019CA95 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506A882C2100750C0019CA95 /* NextViewController.xib */; };
+		506A8832210075180019CA95 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A8830210075180019CA95 /* ThirdViewController.m */; };
+		506A8833210075180019CA95 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506A8831210075180019CA95 /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,17 @@
 		506A8814210071A50019CA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		506A8816210071A50019CA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		506A8817210071A50019CA95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		506A8821210074750019CA95 /* MyTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		506A8822210074750019CA95 /* MyTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		506A8825210074FD0019CA95 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		506A8826210074FD0019CA95 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		506A8827210074FD0019CA95 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		506A882A2100750C0019CA95 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		506A882B2100750C0019CA95 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		506A882C2100750C0019CA95 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		506A882F210075180019CA95 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		506A8830210075180019CA95 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		506A8831210075180019CA95 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,9 @@
 				506A8809210071A30019CA95 /* AppDelegate.m */,
 				506A880B210071A30019CA95 /* ViewController.h */,
 				506A880C210071A30019CA95 /* ViewController.m */,
+				506A8824210074E80019CA95 /* Classes */,
+				506A8821210074750019CA95 /* MyTabBarViewController.h */,
+				506A8822210074750019CA95 /* MyTabBarViewController.m */,
 				506A880E210071A30019CA95 /* Main.storyboard */,
 				506A8811210071A50019CA95 /* Assets.xcassets */,
 				506A8813210071A50019CA95 /* LaunchScreen.storyboard */,
@@ -69,6 +90,22 @@
 				506A8817210071A50019CA95 /* main.m */,
 			);
 			path = MyTabbar;
+			sourceTree = "<group>";
+		};
+		506A8824210074E80019CA95 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				506A8825210074FD0019CA95 /* FirstViewController.h */,
+				506A8826210074FD0019CA95 /* FirstViewController.m */,
+				506A8827210074FD0019CA95 /* FirstViewController.xib */,
+				506A882A2100750C0019CA95 /* NextViewController.h */,
+				506A882B2100750C0019CA95 /* NextViewController.m */,
+				506A882C2100750C0019CA95 /* NextViewController.xib */,
+				506A882F210075180019CA95 /* ThirdViewController.h */,
+				506A8830210075180019CA95 /* ThirdViewController.m */,
+				506A8831210075180019CA95 /* ThirdViewController.xib */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +167,10 @@
 			files = (
 				506A8815210071A50019CA95 /* LaunchScreen.storyboard in Resources */,
 				506A8812210071A50019CA95 /* Assets.xcassets in Resources */,
+				506A8833210075180019CA95 /* ThirdViewController.xib in Resources */,
 				506A8810210071A30019CA95 /* Main.storyboard in Resources */,
+				506A8829210074FD0019CA95 /* FirstViewController.xib in Resources */,
+				506A882E2100750C0019CA95 /* NextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506A8823210074750019CA95 /* MyTabBarViewController.m in Sources */,
+				506A882D2100750C0019CA95 /* NextViewController.m in Sources */,
 				506A880D210071A30019CA95 /* ViewController.m in Sources */,
+				506A8828210074FD0019CA95 /* FirstViewController.m in Sources */,
 				506A8818210071A50019CA95 /* main.m in Sources */,
 				506A880A210071A30019CA95 /* AppDelegate.m in Sources */,
+				506A8832210075180019CA95 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
