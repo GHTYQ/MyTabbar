@@ -7,9 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "FirstViewController.h"
-#import "NextViewController.h"
-#import "ThirdViewController.h"
+
 @interface ViewController ()
 
 @end

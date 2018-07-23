@@ -14,12 +14,10 @@
 		506A8815210071A50019CA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506A8813210071A50019CA95 /* LaunchScreen.storyboard */; };
 		506A8818210071A50019CA95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A8817210071A50019CA95 /* main.m */; };
 		506A8823210074750019CA95 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A8822210074750019CA95 /* MyTabBarViewController.m */; };
-		506A8828210074FD0019CA95 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A8826210074FD0019CA95 /* FirstViewController.m */; };
-		506A8829210074FD0019CA95 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506A8827210074FD0019CA95 /* FirstViewController.xib */; };
-		506A882D2100750C0019CA95 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A882B2100750C0019CA95 /* NextViewController.m */; };
-		506A882E2100750C0019CA95 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506A882C2100750C0019CA95 /* NextViewController.xib */; };
-		506A8832210075180019CA95 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A8830210075180019CA95 /* ThirdViewController.m */; };
-		506A8833210075180019CA95 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506A8831210075180019CA95 /* ThirdViewController.xib */; };
+		50BAA6A12105B706002A8FD1 /* TYQFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BAA6A02105B706002A8FD1 /* TYQFirstViewController.m */; };
+		50BAA6A42105B70F002A8FD1 /* TYQSecoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BAA6A32105B70F002A8FD1 /* TYQSecoundViewController.m */; };
+		50BAA6A72105B71C002A8FD1 /* TYQThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BAA6A62105B71C002A8FD1 /* TYQThirdViewController.m */; };
+		50BAA6AA2105B726002A8FD1 /* TYQFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BAA6A92105B726002A8FD1 /* TYQFourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,15 +33,14 @@
 		506A8817210071A50019CA95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		506A8821210074750019CA95 /* MyTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
 		506A8822210074750019CA95 /* MyTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
-		506A8825210074FD0019CA95 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		506A8826210074FD0019CA95 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		506A8827210074FD0019CA95 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
-		506A882A2100750C0019CA95 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
-		506A882B2100750C0019CA95 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
-		506A882C2100750C0019CA95 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
-		506A882F210075180019CA95 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		506A8830210075180019CA95 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		506A8831210075180019CA95 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		50BAA69F2105B706002A8FD1 /* TYQFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYQFirstViewController.h; sourceTree = "<group>"; };
+		50BAA6A02105B706002A8FD1 /* TYQFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYQFirstViewController.m; sourceTree = "<group>"; };
+		50BAA6A22105B70F002A8FD1 /* TYQSecoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYQSecoundViewController.h; sourceTree = "<group>"; };
+		50BAA6A32105B70F002A8FD1 /* TYQSecoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYQSecoundViewController.m; sourceTree = "<group>"; };
+		50BAA6A52105B71C002A8FD1 /* TYQThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYQThirdViewController.h; sourceTree = "<group>"; };
+		50BAA6A62105B71C002A8FD1 /* TYQThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYQThirdViewController.m; sourceTree = "<group>"; };
+		50BAA6A82105B726002A8FD1 /* TYQFourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYQFourthViewController.h; sourceTree = "<group>"; };
+		50BAA6A92105B726002A8FD1 /* TYQFourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYQFourthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,15 +92,14 @@
 		506A8824210074E80019CA95 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				506A8825210074FD0019CA95 /* FirstViewController.h */,
-				506A8826210074FD0019CA95 /* FirstViewController.m */,
-				506A8827210074FD0019CA95 /* FirstViewController.xib */,
-				506A882A2100750C0019CA95 /* NextViewController.h */,
-				506A882B2100750C0019CA95 /* NextViewController.m */,
-				506A882C2100750C0019CA95 /* NextViewController.xib */,
-				506A882F210075180019CA95 /* ThirdViewController.h */,
-				506A8830210075180019CA95 /* ThirdViewController.m */,
-				506A8831210075180019CA95 /* ThirdViewController.xib */,
+				50BAA69F2105B706002A8FD1 /* TYQFirstViewController.h */,
+				50BAA6A02105B706002A8FD1 /* TYQFirstViewController.m */,
+				50BAA6A22105B70F002A8FD1 /* TYQSecoundViewController.h */,
+				50BAA6A32105B70F002A8FD1 /* TYQSecoundViewController.m */,
+				50BAA6A52105B71C002A8FD1 /* TYQThirdViewController.h */,
+				50BAA6A62105B71C002A8FD1 /* TYQThirdViewController.m */,
+				50BAA6A82105B726002A8FD1 /* TYQFourthViewController.h */,
+				50BAA6A92105B726002A8FD1 /* TYQFourthViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -134,6 +130,7 @@
 		506A87FD210071A30019CA95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TYQ;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = TYQ;
 				TargetAttributes = {
@@ -167,10 +164,7 @@
 			files = (
 				506A8815210071A50019CA95 /* LaunchScreen.storyboard in Resources */,
 				506A8812210071A50019CA95 /* Assets.xcassets in Resources */,
-				506A8833210075180019CA95 /* ThirdViewController.xib in Resources */,
 				506A8810210071A30019CA95 /* Main.storyboard in Resources */,
-				506A8829210074FD0019CA95 /* FirstViewController.xib in Resources */,
-				506A882E2100750C0019CA95 /* NextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,12 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				506A8823210074750019CA95 /* MyTabBarViewController.m in Sources */,
-				506A882D2100750C0019CA95 /* NextViewController.m in Sources */,
+				50BAA6AA2105B726002A8FD1 /* TYQFourthViewController.m in Sources */,
+				50BAA6A72105B71C002A8FD1 /* TYQThirdViewController.m in Sources */,
+				50BAA6A42105B70F002A8FD1 /* TYQSecoundViewController.m in Sources */,
+				50BAA6A12105B706002A8FD1 /* TYQFirstViewController.m in Sources */,
 				506A880D210071A30019CA95 /* ViewController.m in Sources */,
-				506A8828210074FD0019CA95 /* FirstViewController.m in Sources */,
 				506A8818210071A50019CA95 /* main.m in Sources */,
 				506A880A210071A30019CA95 /* AppDelegate.m in Sources */,
-				506A8832210075180019CA95 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKKDH3C3DK;
 				INFOPLIST_FILE = MyTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKKDH3C3DK;
 				INFOPLIST_FILE = MyTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
